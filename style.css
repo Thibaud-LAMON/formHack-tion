@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    background-color: #24204A;
+}
+
+.first-line {
+    position: absolute;
+    width: 522px;
+    height: 42px;
+    left: 699px;
+    top: 29px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #8E88C1;
+
+}
+
+.logo-entree {
+    position: absolute;
+    width: 444px;
+    height: 342px;
+    left: 738px;
+    top: 98px;
+
+    background: url(ressources\logo_Formhack_tion_black-removebg-preview.png);
+}
+
+.catchphrase {
+    position: absolute;
+    width: 669px;
+    height: 121px;
+    left: 626px;
+    top: 467px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 58px;
+    text-align: center;
+
+    color: #8E88C1;
+
+}
+
+.button-1 {
+    position: absolute;
+    width: 518px;
+    height: 68px;
+    left: 701px;
+    top: 641px;
+    background: #3F50E7;
+    border-radius: 8px;
+}
+
+.label {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 25%;
+    bottom: 25%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.overlap-group {
+    position: absolute;
+    width: 1920px;
+    height: 1257px;
+    left: 0px;
+    top: 800px;
+
+    background: #071341;
+}
+
+.formation-container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    min-height: 1020px;
+    width: 560px;
+}
+
+.formation-resume {
+    background: #071341;
+    border: 2px solid #8E88C1;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    min-height: 460px;
+    padding: 20px 32px;
+    width: 570px;
+}
+
+.formation-nom {
+    position: absolute;
+    left: 7.6%;
+    right: 7.42%;
+    top: 4.81%;
+    bottom: 83.81%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #8E88C1;
+}
+
+.formation-nom {
+    position: absolute;
+    left: 7.6%;
+    right: 7.42%;
+    top: 4.81%;
+    bottom: 83.81%;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: #8E88C1;
+}
+
+.description {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: justify;
+    color: #8E88C1;
+    position: absolute;
+    left: 7.6%;
+    right: 5.3%;
+    top: 34.79%;
+    bottom: 4.81%;
+}
