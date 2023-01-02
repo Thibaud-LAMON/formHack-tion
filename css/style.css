@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
 
-body {
+.background {
     background-color: #24204A;
 }
 
@@ -77,47 +77,13 @@ body {
     color: #FFFFFF;
 }
 
-
 .overlap-group {
     position: absolute;
     width: 1920px;
-    height: 1257px;
     left: 0px;
     top: 800px;
 
     background: #071341;
-}
-
-
-.line {
-    display: inline-flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: flex-start;
-    align-items: center;
-    align-content: normal;
-}
-
-
-.item {
-    display: block;
-    flex-grow: 0;
-    flex-shrink: 0;
-    flex-basis: auto;
-    align-self: center;
-    order: 0;
-    width: 65px;
-    margin: 65px;
-    background-color: red;
-}
-
-.formation-container {
-    align-items: flex-start;
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-    min-height: 1020px;
-    width: 560px;
 }
 
 .formation-resume {
@@ -129,31 +95,10 @@ body {
     min-height: 460px;
     padding: 20px 32px;
     width: 570px;
+    margin-bottom: 1em;
 }
 
 .formation-nom {
-    position: absolute;
-    left: 7.6%;
-    right: 7.42%;
-    top: 4.81%;
-    bottom: 83.81%;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 40px;
-    line-height: 48px;
-    text-align: center;
-
-    color: #8E88C1;
-}
-
-.formation-nom {
-    position: absolute;
-    left: 7.6%;
-    right: 7.42%;
-    top: 4.81%;
-    bottom: 83.81%;
 
     font-family: 'Inter';
     font-style: normal;
@@ -173,9 +118,5 @@ body {
     line-height: 24px;
     text-align: justify;
     color: #8E88C1;
-    position: absolute;
-    left: 7.6%;
-    right: 5.3%;
-    top: 34.79%;
-    bottom: 4.81%;
+
 }
