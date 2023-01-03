@@ -5,38 +5,29 @@
 }
 
 .first-line {
-    position: absolute;
-    height: 50px;
-    margin-left: 30.78125%;
     top: 29px;
-
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
     font-size: 48px;
-    line-height: 58px;
-    text-align: center;
-
     color: #8E88C1;
 
 }
 
 .logo-entree {
-    position: absolute;
     width: 100%;
     max-width: 444px;
     height: auto;
-    left: 38.4375%;
     top: 98px;
 
     background: url(ressources\logo_Formhacktion_black-removebg-preview.png);
 }
 
 .catchphrase {
-    position: absolute;
-    width: 34.895833333%;
+
+
     height: 121px;
-    left: 32.552083333%;
+
     top: 467px;
 
     font-family: 'Inter';
@@ -44,7 +35,6 @@
     font-weight: 500;
     font-size: 48px;
     line-height: 58px;
-    text-align: center;
 
     color: #8E88C1;
 
@@ -58,6 +48,17 @@
     top: 641px;
     background: #3F50E7;
     border-radius: 8px;
+}
+
+.button-2 {
+    background: #3F50E7 !important;
+    border-color: #3F50E7 !important;
+    border-radius: 8px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
 }
 
 .label {
@@ -79,7 +80,6 @@
 
 .overlap-group {
     position: absolute;
-    width: 1920px;
     top: 800px;
 
     background: #071341;
@@ -113,4 +113,9 @@
     text-align: justify;
     color: #8E88C1;
 
+}
+
+.hr {
+    border: 1;
+    border-color: #8E88C1;
 }
