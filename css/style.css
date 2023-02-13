@@ -79,8 +79,6 @@
 }
 
 .overlap-group {
-    position: absolute;
-    top: 800px;
 
     background: #071341;
 }
@@ -104,6 +102,12 @@
     color: #8E88C1;
 }
 
+.formulaire {
+    border-radius: 8px;
+    margin-bottom: 2em;
+    padding: 1em;
+}
+
 .description {
     font-family: 'Inter';
     font-style: normal;
@@ -115,7 +119,24 @@
 
 }
 
+.labform {
+    font-family: 'Inter';
+    font-weight: bolder;
+    font-size: xx-large;
+    line-height: 24px;
+    text-align: justify;
+    color: #8E88C1;
+
+}
+
 .hr {
     border: 1;
     border-color: #8E88C1;
+}
+
+.footer-nom {
+    font-family: 'Inter';
+    font-size: xx-large;
+
+    color: #FFFFFF;
 }

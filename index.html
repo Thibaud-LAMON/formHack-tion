@@ -11,36 +11,41 @@
 
 <body class="background">
 
-
-    <div class="first-line">
-        <p class="text-center mt-6">Vos formations en cybersécurité</p>
-    </div>
-    <div class="container">
-        <img src="ressources\logo_Formhacktion_black-removebg-preview.png" alt="LOGO"
-            class="logo-entree mx-auto d-block">
-    </div>
-    <div class=" catchphrase container w-50 p-3">
-        <p class="text-center mx-5">
-            Apprenez à protéger votre environement numérique
-        </p>
-    </div>
-    <!--     <a href="#formations">
-        <div class="button-1">
-            <p class="label">
-                CONSULTEZ NOS FORMATIONS
+    <div class="high">
+        <div class="first-line">
+            <p class="text-center mt-6">Vos formations en cybersécurité</p>
+        </div>
+        <div class="container">
+            <img src="ressources\logo_Formhacktion_black-removebg-preview.png" alt="LOGO"
+                class="logo-entree mx-auto d-block">
+        </div>
+        <div class=" catchphrase container w-50 p-3">
+            <p class="text-center mx-5">
+                Apprenez à protéger votre environement numérique
             </p>
         </div>
-    </a> -->
+        <!--     <a href="#formations">
+            <div class="button-1">
+                <p class="label">
+                    CONSULTEZ NOS FORMATIONS
+                </p>
+            </div>
+        </a> -->
+        <br>
+        <br>
+        <br>
+        <div class="container my-3">
+            <div class="col-md-12 text-center">
+                <a href="#formations" class="btn btn-primary btn-lg button-2 ms-3 mx-auto" role="button"
+                    data-bs-toggle="button">CONSULTEZ
+                    NOS FORMATIONS</a>
+            </div>
+        </div>
+    </div>
+
     <br>
     <br>
     <br>
-
-    <a href="#formations" class="btn btn-primary btn-lg button-2 ms-3" role="button" data-bs-toggle="button">CONSULTEZ
-        NOS FORMATIONS</a>
-
-
-
-
     <div id="formations" class="container-fluid overlap-group">
         <div class="container">
             <br>
@@ -144,7 +149,84 @@
                 </div>
             </div>
         </div>
+        <br>
     </div>
+    <br>
+    <!--le formulaire envoi un mail à Kevin et il recontacte le client -->
+    <div>
+        <div class="container">
+            <br>
+            <div class="row">
+                <div class="mx-auto col-10 col-md-8 col-lg-6">
+                    <!-- Form -->
+                    <form class="bg-white row g-3 formulaire" method="post" action="form.php">
+                        <fieldset>
+                            <div class="mb-3">
+                                <label for="email" class="form-label labform">Insérez votre addresse
+                                    e-mail</label>
+                                <input type="text" id="email" class="form-control" placeholder="addresse e-mail"
+                                    required>
+                            </div>
+                            <br>
+                            <div class="mb-3">
+                                <label for="sujet" class="form-label labform">Choisissez votre formation</label>
+                                <select id="sujet" class="form-select" required>
+                                    <option value="sécurité e-mails">SÉCURITÉ E-MAILS</option>
+                                    <option value="gestion des mots de passe">GESTION DES MOTS DE PASSE</option>
+                                    <option value="sécurité des réseaux informatiques">SÉCURITÉ DES RÉSEAUX
+                                        INFORMATIQUES</option>
+                                    <option value="protection des données">PROTECTION DES DONNÉES</option>
+                                    <option value="navigation web">NAVIGATION WEB</option>
+                                </select>
+                            </div>
+                            <button type="submit" class="btn btn-primary button-2">Envoyer</button>
+                        </fieldset>
+                    </form>
+                    <!-- Form end -->
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+<footer class="text-center text-lg-start text-white">
+    <hr class="hr" style="width:88%; margin: auto;">
+    <!-- Section: Links  -->
+    <section class="">
+        <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+                <!-- Grid column -->
+                <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                    <!-- Content -->
+                    <p class="footer-nom fs-1">
+                        FormHack'tions
+                    </p>
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                    <!-- Links -->
+                    <h6 class="fs-4">Informations</h6>
+                    <hr>
+                    <a href="#!" class="text-white">Contacts</a><br>
+                    <a href="#!" class="text-white">Conditions générales d'utilisation</a><br>
+                    <a href="#!" class="text-white">Politique de confidentialité</a><br>
+                    <a href="#!" class="text-white">Mentions légales</a><br>
+                </div>
+                <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+        </div>
+    </section>
+    <!-- Section: Links  -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3">
+        © Tous droit réservé 2022 “FormHack’tion”
+    </div>
+    <!-- Copyright -->
+</footer>
 
 </html>
