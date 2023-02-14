@@ -2,6 +2,19 @@
 
 .background {
     background-color: #24204A;
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+}
+
+footer {
+    margin-top: auto;
 }
 
 .first-line {
@@ -152,5 +165,39 @@
 .back-arrow:hover {
     text-decoration: none;
     font-size: 32px;
+    color: white;
+}
+
+.contacter {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+
+    color: white;
+}
+
+.mail {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bolder;
+    font-size: 128px;
+    text-align: center;
+
+    color: white;
+}
+
+.contacts {
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    text-align: center;
+
     color: white;
 }
